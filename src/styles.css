@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+
+p {
+    background-color: cyan;
+}
+
+a {
+    background-color: red;
+}
+
+span {
+    display: inline-block;
+    width:100px;
+    vertical-align: top;
+    background-color: yellow;
+}
+
+.test-inline {
+    padding: 24px;
+    margin: 84px;
+}

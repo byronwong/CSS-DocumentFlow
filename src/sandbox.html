@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sandbox</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sandbox</h1>
+    <section>
+        <h2>Inline elements</h2>
+        <div class="example-wrapper">
+
+        </div>
+    </section>
+    
+    <!-- padding test on a tag -->
+    <p>Testing inline elements: <a href="#" class="test-inline">Test</a></p>
+    <ul>
+        <li>Inline elements are aligned to the baseline</li>
+        <li>Notice how the left and right margins are respected</li>
+        <li>Top and bottom margins are ignored</li>
+        <li>padding left and right is respected, top and bottom is outside of flow</li>
+    </ul>
+
+    <!-- example inline -->
+    <a href="#">Moes</a>
+
+    <!-- padding test on inline within inline -->
+    <a href="#">Moes <em>Moesey</em></a>
+    <a href="#">Moes</a>
+    <a href="#">Moes</a>
+    <a href="#">Moes</a>
+
+    <br>
+
+    <!-- alternative to float -->
+    <span>Example</span>
+    <span>Example</span>
+    <span>Example</span>
+    <span>Example</span>
+
+</body>
+</html>
